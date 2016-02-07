@@ -1,0 +1,100 @@
+$primaryColor: green;
+$secondaryColor: green;
+
+@mixin primaryFont($fontSize: inherit) { font-family: 'Oswald'; font-size: $fontSize; } // use: @include primaryFont(16px)
+
+body {
+
+	.cc_banner-wrapper {
+		.cc_container {
+			font-size: 12px;
+			.cc_btn,
+			.cc_btn:visited {
+				font-weight: bold;
+				background-color: #9DC90C;
+				color:#fff;
+				text-transform: uppercase;
+				&:hover {
+					background-color: #8AB205;
+				}
+			}
+			.cc_message {
+				font-size: 1em !important;
+				line-height: 1.3em;
+				margin: 0;
+				.cc_more_info {
+					text-decoration: underline;
+					color: #8AE8F7;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+
+	background-color: black;
+	color: $primaryColor;
+	@include primaryFont(16px);
+
+	header.header {
+
+		
+
+	} // header
+
+	.content {
+
+
+	} //content
+
+	footer.footer {
+	
+	}
+
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	body {
+
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	body {
+
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	body {
+
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+	body {
+		
+	}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+	body {
+		
+	}
+    
+}

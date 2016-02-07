@@ -1,0 +1,14 @@
+/* TEAM */
+    Project Manager: Gonzalo Cuevas
+    Contact: gonzalo.cuevas@warnermusic.com
+
+    Web designer & developer: Alberto Fortes
+    Twitter: @albertofs
+    Website: www.albertofortes.com
+    From: Sevilla, Andalucia, Spain
+
+/* SITE */
+    Last update:
+    Language: Castellano
+    Doctype:HTML5
+    IDE: Sublime Text, FileZilla, Photoshop
